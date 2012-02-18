@@ -9,10 +9,12 @@ function wouwfotobeheer_init() {
 
 
 function wouwfotobeheer_menu() {
-  $items = null;
+  $items = array();
   
   $items['admin/settings/fotobeheer'] = array(
+      'title' => 'Wouw fotobeheer',
       'page callback' => 'wouwfotobeheer_settings',
+      'type' => MENU_NORMAL_ITEM
   );
   
   return $items;
