@@ -1,0 +1,4 @@
+name = Wouw Fotobeheer
+description = Adds a bulk upload method for pictures
+core = 6.x
+package = "Wouw Custom"
